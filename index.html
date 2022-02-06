@@ -19,15 +19,36 @@
 
 
     <picture>
-      <source srcset="img/art/landscape/lego_landscape_960.png,
-                      img/art/landscape/lego_landscape_1440.png 2x,
-                      img/art/landscape/lego_landscape_1920.png 3x"
+      <source srcset="images/museum-landscape-320.jpg,
+                      images/museum-landscape-640.jpg 2x,
+                      images/museum-landscape-960.jpg 3x"
+              media="(min-width: 320px) and (max-width: 479)"/>
+
+              <source srcset="images/museum-landscape-480.jpg,
+                      images/museum-landscape-960.jpg 2x,
+                      images/museum-landscape-1440.jpg 3x"
+              media="(min-width: 480px) and (max-width: 719)"/>
+
+              <source srcset="images/museum-landscape-720.jpg,
+                      images/museum-landscape-1440.jpg 2x,
+                      images/museum-landscape-2160.jpg 3x"
+              media="(min-width: 720px) and (max-width: 959)"/>
+
+      <source srcset="images/museum-landscape-960.jpg,
+                      images/museum-landscape-1920.jpg 2x,
+                      images/museum-landscape-2880.jpg 3x"
               media="(max-width: 960px)"/>
   
-      <source srcset="img/art/square/lego_square_640.png,
-                          img/art/square/lego_square_960.png 2x,
-                          img/art/square/lego_square_1440.png 3x"
-              media="(min-width: 960px)"/>
+
+      <source srcset="images/museum-square-480.jpg,
+                          images/museum-square-960.png 2x,
+                          images/museum-square-1440.png 3x"
+              media="(min-width: 960px) and (max-width: 1599px)"/>
+
+              <source srcset="images/museum-square-800.jpg,
+                          images/museum-square-1600.png 2x,
+                          images/museum-square-2400.png 3x"
+              media="(min-width: 1600px)"/>
   
 
               <img src="images/museum.jpg" alt="placeholder">
